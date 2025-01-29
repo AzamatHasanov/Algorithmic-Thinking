@@ -43,3 +43,14 @@ function findMinMax(arr) {
 }
 
 console.log(findMinMax([3, 7, 1, 9, 2]));
+
+// second  4
+
+function findMinMax2(arr) {
+  let max = Math.max(...arr);
+  let min = Math.min(...arr);
+
+  return { min, max };
+}
+
+console.log(findMinMax2([-3, -7, -1, -9, -2]));
